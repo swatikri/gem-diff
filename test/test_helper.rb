@@ -6,5 +6,6 @@ SingleCov.setup :minitest
 
 require "maxitest/autorun"
 
-require "gem_diff/version"
-require "gem_diff"
+require "gem/diff"
+require "gem/diff/version"
+require "gem/diff/command"

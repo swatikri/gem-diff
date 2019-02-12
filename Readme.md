@@ -1,17 +1,25 @@
-Show diff between 2 gem versions
+Show diff between 2 gem versions.
 
 Install
 =======
 
 ```Bash
-gem install gem_diff
+gem install gem-diff
 ```
 
 Usage
 =====
 
-```Ruby
-CODE EXAMPLE
+```Bash
+gem diff rack 2.0.5 2.0.6
+TODO: example output
+TODO: make sure gemspec is differed too
+```
+
+Show difference between gems that are not locally installed without installing them.
+```
+gem diff rack 2.0.5 2.0.6 --remote
+TODO: example output
 ```
 
 Author

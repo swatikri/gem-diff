@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    gem_diff (0.0.0)
+    gem-diff (0.0.0)
 
 GEM
   remote: https://rubygems.org/
@@ -35,7 +35,7 @@ PLATFORMS
 
 DEPENDENCIES
   bump
-  gem_diff!
+  gem-diff!
   maxitest
   rake
   rubocop
